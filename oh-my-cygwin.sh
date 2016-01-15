@@ -16,7 +16,7 @@ chmod +x "${APT_CYG}"
 
 
 # install OH MY ZSH
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 # Create initial /etc/zshenv
 [[ ! -e /etc/zshenv ]] && echo export PATH=/usr/bin:\$PATH > /etc/zshenv
