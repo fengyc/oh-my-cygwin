@@ -16,6 +16,6 @@ Change zsh theme and load plugins
     # ZSH_THEME = "random"
     # plugins=(git git-flow svn)
     
-Themes and plugins can be found in ~/.oh-my-zsh
+Themes and plugins can be found in `~/.oh-my-zsh` .
     
 Enjoy!
